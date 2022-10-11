@@ -149,7 +149,7 @@ module.exports = withDocsInfra({
       },
     };
   },
-  distDir: 'build',
+  distDir: 'public',
   env: {
     GITHUB_AUTH: process.env.GITHUB_AUTH,
     LIB_VERSION: pkg.version,
