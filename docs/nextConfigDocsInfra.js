@@ -21,7 +21,7 @@ process.env.DEPLOY_ENV = DEPLOY_ENV;
 function withDocsInfra(nextConfig) {
   return {
     trailingSlash: true,
-    disDir:"build",
+    distDir:"build",
     // Can be turned on when https://github.com/vercel/next.js/issues/24640 is fixed
     optimizeFonts: false,
     reactStrictMode: true,
