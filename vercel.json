@@ -4,6 +4,5 @@
     "silent": true
   },
   "public": true,
-  "trailingSlash": true,
-  "compact": false
+  "trailingSlash": true
 }
