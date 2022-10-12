@@ -73,7 +73,7 @@ module.exports = {
       ],
     },
     development : {
-      compact: false
+      compact: true
     }
   },
 };
