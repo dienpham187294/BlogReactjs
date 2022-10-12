@@ -137,6 +137,7 @@ module.exports = function getBabelConfig(api) {
             },
           ],
         ],
+          compact: false
       },
       legacy: {
         plugins: [
